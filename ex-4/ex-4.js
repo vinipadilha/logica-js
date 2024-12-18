@@ -1,1 +1,1 @@
-console.log("Inicio ex4 ")
+console.log("Inicio ex4")
