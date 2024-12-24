@@ -2,7 +2,7 @@ let preco = 60
 let avista
 let parcelado
 
-avista = preco - (preco / 10)
+avista = preco -  (preco / 10)
 parcelado = preco / 3
 
 console.log(`Preço: R$ ${preco}`)
