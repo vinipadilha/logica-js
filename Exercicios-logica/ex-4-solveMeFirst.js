@@ -7,5 +7,5 @@ function solveMeFirst(a, b) {
 
 
 
-console.log(solveMeFirst(3,5))
+console.log(solveMeFirst(4,5))
 
