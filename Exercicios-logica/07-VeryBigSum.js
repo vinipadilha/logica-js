@@ -1,8 +1,8 @@
 function aVeryBigSum(ar) {
     // Write your code here
-    soma = 0
+    let  soma = 0
 
-    for (index = 0; index < ar.length; index++){
+    for (let index = 0; index < ar.length; index++){
         soma = soma + ar[index]
     }
 
