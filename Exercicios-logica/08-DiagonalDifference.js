@@ -1,20 +1,14 @@
 function diagonalDifference(arr) {
     // Write your code here
-    let diferenca = 0
-    let somaA = 0
-    let somaB = 0
+    let somaL = 0;
+    let somaR = 0;
 
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr.length; j++) {
-            if( arr[i] == i[j]){
-                somaA = somaA + i[j]
-            }
-            
-        }
+    for (let index = 0; index < arr.length; index++) {
+        somaL += arr[index][index]
         
     }
-    return somaA
-
+    
+    
 }
 
 console.log(diagonalDifference([
