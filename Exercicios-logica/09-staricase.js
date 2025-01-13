@@ -1,10 +1,7 @@
 function staircase(n) {
     // Write your code here
-    for (let index = 0; index <= n; index++) {
-        let symbol = 
-        
-    }
-
+    let symbol = '#'
+    let inputLine = ''
 }
 
 console.log(staircase(4))
