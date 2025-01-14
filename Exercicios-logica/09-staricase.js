@@ -3,10 +3,7 @@ function staircase(n) {
     let symbol = '#';
     let inputLine = '';
 
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-        
-    }
+    
 }
 
 console.log(staircase(4))
