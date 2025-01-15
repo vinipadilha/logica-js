@@ -19,7 +19,8 @@ function staircase(n) {
     }
     
 } 
-console.log(staircase(4))
+
+staircase(10)
 
 
 
