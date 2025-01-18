@@ -1,6 +1,6 @@
 function catAndMouse(x, y, z) {
-    let distanceA = Math.Abs(x - z)
-    let distanceB = Math.Abs(y - z)
+    let distanceA = Math.abs(x - z)
+    let distanceB = Math.abs(y - z)
 
     if(distanceA < distanceB){
         return "Cat A"
