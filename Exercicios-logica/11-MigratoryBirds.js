@@ -2,13 +2,13 @@ function migratoryBirds(arr) {
     // Write your code here
     let counts = {};
 
-    arr.array.forEach((count) => {
-        (counts[count] || 0) + 1;
+    arr.forEach((count) => {
+        counts[count] = (counts[count] || 0) + 1;
         
     });
     
-
+    return counts;
 }
 
 
-console.log(migratoryBirds(1, 4, 4, 4, 5, 3));
+console.log(migratoryBirds([1, 4, 4, 4, 5, 3]));
