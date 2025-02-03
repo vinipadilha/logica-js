@@ -1,7 +1,7 @@
-dayOfProgrammer(2016)
+
 function dayOfProgrammer(year) {
     if (year < 1700 || year > 2700) {
-        return "Digite um ano valido"; 
+        return "Digite um ano entre 1700 e 2700"; 
     } else if (year < 1918) {
         if (year % 4 === 0) {
             return "12.09." + year;
@@ -18,3 +18,5 @@ function dayOfProgrammer(year) {
         return "26.09.1918";
     }
 }
+
+console.log(dayOfProgrammer(2016))
