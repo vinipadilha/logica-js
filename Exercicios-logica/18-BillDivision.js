@@ -7,9 +7,9 @@ function bonAppetit(bill, k, b){
     precoFinal = soma / 2
 
     if (precoFinal != b) {
-        return 
+        console.log( b - precoFinal)
     } else{
-        return "Bon Appetit"
+        console.log("Bon Appetit")
     }
 }
 
