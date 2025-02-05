@@ -1,4 +1,4 @@
-function bonApetit(bill, k, b){
+function bonAppetit(bill, k, b){
     let soma = 0
 
     bill.forEach(preco => {
