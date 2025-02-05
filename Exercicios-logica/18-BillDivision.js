@@ -1,17 +1,16 @@
 function bonAppetit(bill, k, b){
-    let soma = 0
+    let soma = 0;
+    let precoFinal = 0;
 
-    bill.forEach(preco => {
-        soma += preco - bill[k]
-        
-    });
+    bill.forEach(valor => soma += valor);
+    soma = soma - bill[k]
+    precoFinal = soma / 2
 
-    if(soma == b){
-        return "Bon Apetit"
-    } else {
-        return b - soma
+    if (precoFinal != b) {
+        return 
+    } else{
+        return "Bon Appetit"
     }
-    
 }
 
 
