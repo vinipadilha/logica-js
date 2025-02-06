@@ -15,8 +15,8 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
         }
     }
 
-    return [AppleCount, OrangeCount]
-
+    console.log(AppleCount) 
+    console.log(OrangeCount) 
 
 }
 
