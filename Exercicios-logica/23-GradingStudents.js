@@ -1,27 +1,22 @@
 function gradingStudents(grades) {
-    // Write your code here
     let notas = [];
-    let sobra = 0;
-    let valorFinal = 0;
-    
 
     for (let i = 0; i < grades.length; i++) {
-        
-        if(grades[i] < 38 || grades[i] % 5 === 0){
-            notas.push(grades[i])
+        let nota = grades[i];
 
+        if (nota < 38) {
+            notas.push(nota); 
         } else {
-            sobra = grades[i] % 5 
-            valorFinal = grades[i] + sobra
-            notas.push(valorFinal)
-
+            let sobra = nota % 5;
+            if (sobra >= 3) {
+                nota += (5 - sobra);
+            }
+            notas.push(nota);
         }
-        
     }
-    return notas
 
+    return notas;
 }
-
 
 console.log(gradingStudents([73, 67, 38, 33]))
 
