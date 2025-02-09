@@ -14,16 +14,16 @@ function formingMagicSquare(s) {
     let maxValue = Number.MAX_VALUE
     
     for (let index = 0; index < magicSquares.length; index++) {
-         let min = 0; 
+        let min = 0; 
 
-         for (let line = 0; line < array.length; line++) {
-            const element = array[line];
+        for (let line = 0; line < s.length; line++) {
             
-         }
-        
+            for (let column = 0; column < s.length; column++) {
+                
+                
+            }  
+        }   
     }
-
-
 }
 
 
