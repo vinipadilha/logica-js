@@ -19,17 +19,19 @@ function formingMagicSquare(s) {
         for (let line = 0; line < s.length; line++) {
             
             for (let column = 0; column < s.length; column++) {
-                
+                 min += Math.abs(s[line][column] - magicSquares[index][line][column]);
                 
             }  
-        }   
+        } 
+        maxValue = Math.min(maxValue, min)  
     }
+    return maxValue;
 }
 
 
-console.log(formingMagicSquare[
+console.log(formingMagicSquare([
     [5, 3, 4],
     [1, 5, 8],
     [6, 4, 2]
-]);
+]));
 
