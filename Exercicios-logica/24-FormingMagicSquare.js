@@ -10,7 +10,13 @@ function formingMagicSquare(s) {
         [[8, 1, 6], [3, 5, 7], [4, 9, 2]],
         [[4, 3, 8], [9, 5, 1], [2, 7, 6]]
     ];
+
+    let maxValue = Number.MAX_VALUE
     
+    for (let index = 0; index < magicSquares.length; index++) {
+        
+        
+    }
 
 
 }
