@@ -23,7 +23,9 @@ function plusMinus(arr) {
     let resultadoNegativos = (negativo / n).toFixed(6)
     let resultadoZero = (zero / n).toFixed(6)
 
-    return console.log(resultadoPositivos), console.log(resultadoNegativos), console.log(resultadoZero)
+    console.log(resultadoPositivos)
+    console.log(resultadoNegativos)
+    console.log(resultadoZero)
 }
 
 
