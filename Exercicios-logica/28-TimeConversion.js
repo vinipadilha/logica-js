@@ -9,10 +9,15 @@ function timeConversion(s){
         hr = hr + 12
         return hr + newhr
 
+    } else if(format == "AM" || 12){
+        hr = hr - 12
+        return hr + newhr
+
     } else{
         return s.slice(0, -2)
     }
 }
 console.log(timeConversion("07:05:45PM"))
 console.log(timeConversion("07:05:45AM"))
+console.log(timeConversion("12:05:39AM"))
 
