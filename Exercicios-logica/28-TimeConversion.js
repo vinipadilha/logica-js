@@ -13,7 +13,6 @@ function timeConversion(s){
         return s.slice(0, -2)
     }
 }
-
-
 console.log(timeConversion("07:05:45PM"))
+console.log(timeConversion("07:05:45AM"))
 
