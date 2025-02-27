@@ -16,7 +16,7 @@ function birthday(s, d, m) {
         }
         sum = 0;
     }
-    return console.log(count)
+    return count;
 }
 
 birthday([2, 2, 1, 3, 2], 4, 2)
