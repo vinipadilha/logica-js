@@ -14,6 +14,11 @@ function timeConversion(s){
         hours = hours + 12
 
     }
+
+    if (hours < 12) {
+        return (`0${hours}:${minutes}:${minutes}`)
+        
+    }
 }
 
 
