@@ -10,6 +10,9 @@ function timeConversion(s){
     if(hours >= 12 && ampm === 'A'){
         hours = hours - 12
 
+    } else if( hours < 12 && ampm === 'P') {
+        hours = hours + 12
+
     }
 }
 
