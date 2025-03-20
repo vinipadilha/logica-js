@@ -6,6 +6,11 @@ function timeConversion(s){
     let minutes = s[3] + s[4];
     let seconds = s[6] + s[7];
     let ampm = s[s.lenght - 2]
+
+    if(hours >= 12 && ampm === 'A'){
+        hours = hours - 12
+
+    }
 }
 
 
